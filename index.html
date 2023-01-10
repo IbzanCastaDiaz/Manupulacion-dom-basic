@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manupulacion de Dom</title>
+</head>
+<body>
+    <h1 class="claseh1" pantalla="lg">Manipulacion del DOM basica</h1>
+
+    <p class="parrafo-clase">Este es un parrafo con clase</p>
+    <p id="parrafo-id">Este es un parrafo con ID</p>
+
+    <input placeholder="Escribe algo aquí" value="123"/>
+
+
+    <h1 class="h1Eventos">Eventos en JavaScript</h1>
+    <input id="calculo1" placeholder="Escribe algo aquí" type="number">
+    <input id="calculo2" placeholder="Escribe algo aquí" type="number">
+    <button id="btnCalcular" onclick="btnOnclick()">Calcular</button>
+    <p id="result"></p>
+ 
+    <h1 class="h1aEL">add Even Listener</h1>
+    <form action="" id="form">
+        <input id="calculo3" placeholder="Escribe algo aquí" type="number">
+        <input id="calculo4" placeholder="Escribe algo aquí" type="number">
+        <!--En el ultimo botton por defecto el form lo coloca con el tipo submit, para cambiar esto y asi evitar recargar la pagina cada vez de dan click es este boton, se debe de cambiar el tipo a botton --> 
+        <button id="btnCalcular2">Calcular</button>
+        <p id="result2"></p>
+    </form>
+    
+
+    <script src="index.js"></script>
+</body>
+</html>
